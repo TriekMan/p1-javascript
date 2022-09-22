@@ -7,6 +7,19 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="app.js"></script>
+    <p id="paragraph">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta
+      eum qui incidunt saepe perferendis illo ex sequi. Magnam commodi officiis
+      tenetur eum inventore itaque ab voluptas corrupti totam velit?
+    </p>
+    <button id="button" onclick="change_text()">
+      Click to change text!
+    </button>
+    <script>
+      let text = document.getElementById("paragraph");
+      function change_text() {
+        text.innerText ="ik ben er klaar mee voor vandaag"
+      }
+    </script>
   </body>
 </html>
