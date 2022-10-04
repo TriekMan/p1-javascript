@@ -2,7 +2,7 @@
 
 document.getElementById("header1").style.color = "red";
 
-document.getElementById("header1").innerText = "het werkt"
+document.getElementById("header1").innerText = "het werkt";
 
 
 
