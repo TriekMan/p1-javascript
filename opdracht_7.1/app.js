@@ -1,7 +1,6 @@
 let budget = 100;
-let product = 60;
-
 let par = document.getElementById("para");
+let product = prompt("Hoeveel kost het product dat je wilt kopen?")
 
 if(budget >= product){
     par.innerText = "U heeft genoeg geld!";
